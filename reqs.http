@@ -1,0 +1,8 @@
+@server = https://texai-fantastic-garbanzo-4gw7x96prh79pq-8080.preview.app.github.dev
+###
+GET {{server}}/api/employees
+###
+POST {{server}}/api/employees
+Content-Type: application/json
+
+{"firstName": "Primer Nombre", "lastName": "Apellido", "description": "semana 10"}
